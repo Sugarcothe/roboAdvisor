@@ -1,0 +1,86 @@
+/* NAVBAR */
+.navContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh 0;
+}
+
+.navbar {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6vw;
+  list-style: none;
+  color: var(--main-color);
+  text-align: center;
+}
+
+.menuList {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2vw;
+  list-style: none;
+  color: var(--main-color);
+  text-align: center;
+}
+
+.navLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBtnConainer {
+  display: flex;
+  gap: 1vh;
+}
+
+.navBtn {
+  font-size: 1.2vw;
+  padding: 1.5vh 3vw;
+  color: var(--main-color);
+  background-color: white;
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navBtn1 {
+  font-size: 1.2vw;
+  padding: 1.5vh 3vw;
+  color: white;
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  overflow: none;
+  gap: 2vw;
+  padding: 3vh 0;
+}
+
+.hero-text {
+  width: 26vw;
+}
+
+.hero-text1 {
+  font-size: clamp(1vw, 10vw, 3.8vw);
+  font-weight: 100;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hero-text-span {
+  font-weight: 900;
+  font-style: normal;
+}
