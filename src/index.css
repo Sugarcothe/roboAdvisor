@@ -2,23 +2,23 @@
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(
-    180deg,
-    hsl(40deg 84% 69%) 0%,
-    hsl(39deg 87% 72%) 18%,
-    hsl(37deg 91% 75%) 32%,
-    hsl(36deg 95% 77%) 42%,
-    hsl(35deg 100% 80%) 50%,
-    hsl(34deg 100% 82%) 57%,
-    hsl(33deg 100% 84%) 63%,
-    hsl(33deg 100% 86%) 68%,
-    hsl(32deg 100% 88%) 73%,
-    hsl(31deg 100% 90%) 78%,
-    hsl(30deg 100% 92%) 83%,
-    hsl(29deg 100% 94%) 88%,
-    hsl(28deg 100% 96%) 93%,
-    hsl(24deg 100% 98%) 100%
-  );
+ background-image: linear-gradient(
+  180deg,
+  hsl(40deg 84% 69%) 0%,
+  hsl(39deg 87% 72%) 0%,
+  hsl(37deg 91% 75%) 1%,
+  hsl(36deg 95% 77%) 5%,
+  hsl(35deg 100% 80%) 10%,
+  hsl(34deg 100% 82%) 18%,
+  hsl(33deg 100% 84%) 28%,
+  hsl(33deg 100% 86%) 42%,
+  hsl(32deg 100% 88%) 57%,
+  hsl(31deg 100% 90%) 73%,
+  hsl(30deg 100% 92%) 86%,
+  hsl(29deg 100% 94%) 95%,
+  hsl(28deg 100% 96%) 99%,
+  hsl(24deg 100% 98%) 100%
+);
 
   --main-color: #481d01;
   --secondary-color: #f2c76e;

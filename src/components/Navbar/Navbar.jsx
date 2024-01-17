@@ -1,4 +1,4 @@
-import { AccountBalance } from "@mui/icons-material";
+import { AccountBalance, AutoGraph } from "@mui/icons-material";
 import React from "react";
 
 const Navbar = () => {
@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="navContainer">
       <ul className="navbar">
         <li className="navLogo">
-          <AccountBalance />
+          <AutoGraph />
           <h1>roboAdvisor</h1>
         </li>
         <ul className="menuList">

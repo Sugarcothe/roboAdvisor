@@ -11,8 +11,8 @@ const Hero = () => {
           {landingData.firstHeader}{" "}
           <span className="hero-text-span">{landingData.span}</span>
         </h1>
-        <p>{landingData.secondHeader}</p>
-        <button>Get Started</button>
+        <p className="hero-paragraph">{landingData.secondHeader}</p>
+        <button className="heroBtn">Get Started</button>
       </div>
       <div className="hero-image">
         <img src={heroImage} alt="" />
